@@ -1,0 +1,64 @@
+div {
+    width: 30%;
+    box-sizing:border-box;
+    padding: 1px;
+    background-size: cover;
+
+    float: left;
+}
+
+#menu{    
+
+}
+
+#imagen{
+
+}
+
+#red{
+    clear: both;
+}
+
+footer{
+    clear: both;
+}
+
+
+a:link, a:visited{
+    text-decoration: none;
+    background-color:blue;
+    border: 1px solid yellow;
+    color:red;
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 5px;
+    padding:5px;
+}
+a:hover,a:active{
+    background-color: red;
+    color: yellow
+}
+
+h1{
+    font-size: medium;
+    font-family: 'Lucida Sans';
+    font-weight: bolder;
+    font-style: italic;
+    color:darkgreen;
+}
+
+section{
+    float: left;
+}
+section td:nth-child(odd){
+    background-color: aqua;
+    
+}
+section td:nth-child(even){
+    background-color: darkblue;
+}
+
+li{
+    list-style: none;
+}
